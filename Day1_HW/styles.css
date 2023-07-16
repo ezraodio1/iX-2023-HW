@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+}
+
+.firstDiv {
+    background-color: rgb(66, 67, 69);
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 150px
+}
+
+.secondDiv {
+    background-color: lightgray;
+    padding: 10px;
+    margin-bottom: -30px;
+}
+
+.thirdDiv {
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+    padding-bottom: 30px;
+}
+
+.fourthDiv {
+    background-color: rgb(66, 67, 69);
+    display: flex;
+    justify-content: center;
+}
+
+.fifthDiv {
+    width: calc(33.33333% - 30px);
+    margin: 15px;
+    background-color: white;
+}
+
+.sixthDiv {
+    padding: 40px;
+    background-color: white;
+}
+
+.seventhDiv {
+    padding: 40px;
+    background-color: rgb(43, 43, 236);
+}
+
+.eighthDiv {
+    padding: 40px;
+    background-color: rgb(66, 67, 69);
+}
+
+.ninthDiv {
+    padding: 40px;
+    background-color: black;
+}
+
+em {
+    color: blue;
+    font-style: normal;
+}
+
+img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+
+p {
+    color: white;
+}
+
+.description {
+    color: black;
+    text-align: center;
+}
+
+.textTwo {
+    color: black;
+    width: 45%;
+    margin: 20px;
+}
+
+button {
+    border-color: white;
+    background-color: rgb(66, 67, 69);
+    color: white;
+    padding: 8px;
+    border-width: 1pt;
+    margin-bottom: 50px;
+}
