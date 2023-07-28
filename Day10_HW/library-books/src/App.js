@@ -20,7 +20,7 @@ function App() {
 
     useEffect(() => {
       onAuthStateChanged(auth, (user) => {
-        setUser();
+        setUser(user);
       });
     }, []);
   

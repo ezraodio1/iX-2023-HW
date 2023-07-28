@@ -13,9 +13,9 @@ class BookService {
         const querySnapshot = await getDocs(q);
 
         const books = [];
-        querySnapshot.forEach((x) => {
+        querySnapshot.forEach((doc) => {
             const data = doc.data();
-            const book = new Book(data.title, data.author, data.isbn, x.id);
+            const book = new Book(data.title, data.author, data.isbn, doc.id);
             books.push(book);
         });
 
